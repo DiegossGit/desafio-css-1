@@ -1,0 +1,42 @@
+#our-space-section {
+  background-color: var(--main-color);
+  padding: 20px;
+}
+
+#our-space-section h1 {
+  color: var(--background-color);
+  margin-bottom: 40px;
+}
+.card-align{
+  border-radius: 8px;
+  margin: 20px 0;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.our-space-card{
+  background-color: var(--dark-gray);
+  height: 127px;
+}
+.card-align h2{
+  font-size: var(--font-lg);
+}
+.card-align p{
+  font-size: var(--font-sm);
+}
+
+.modalities-card{
+  background-color: var(--main-color);
+  height: 106px;
+  color: var(--background-color);
+}
+
+#modalities-section {
+  background-color: var(--background-color);
+  padding: 20px;
+}
+#modalities-section h1 {
+  color: var(--secondary-color);
+  margin-bottom: 40px;
+}
