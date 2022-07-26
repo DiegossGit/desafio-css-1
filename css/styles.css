@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+:root{
+  --main-color: #222374;
+  --secondary-color: #F03C42;
+  --background-color: #FFFFFF;
+  --dark-gray: #CCCCCC;
+  --darker-color: #000000;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+}
+
+header {
+  background-color: var(--secondary-color);
+  padding: 10px;
+}
+
+.container-nav {
+  height: 100px;
+  max-width: 960px;
+  margin: auto;
+  color: var(--background-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-instagram {
+  display: flex;
+  flex-direction: row;
+  width: 125px;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-instagram a{
+  display: flex;
+  align-items: center;
+  width: 30px;
+  height: 30px; 
+}
+.container-nav h1 {
+  font-size: 18px;
+  font-weight: 700;
+}
+.nav-instagram h3 {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.section-1 {
+  background-color: var(--main-color);
+  height: 418px;
+}
+
+.container-section-1 {
+  max-width: 960px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around ;
+}
+
+.container-section-1 h1 {
+  font-weight: 700;
+  color: var(--background-color);
+  font-size: 32px;
+  margin: 20px 0;
+}
+
+.card-1 {
+  background-color: var(--dark-gray);
+  margin: 20px 0;
+  padding: 20px 20px;
+  height: 127px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+.card-1 h2 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+}
+.card-1 p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+}
+
+.section-2 {
+  background-color: var(--background-color);
+  height: 880px;
+}
+
+.container-section-2 {
+  max-width: 960px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around ;
+}
+
+.container-section-2 h1 {
+  font-weight: 700;
+  color: var(--secondary-color);
+  font-size: 32px;
+  margin: 20px 0;
+}
+
+.card-2 {
+  background-color: var(--main-color);
+  color: var(--background-color);
+  margin: 20px 0;
+  padding: 20px 20px;
+  height: 106px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+.card-2 h2 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+}
+.card-2 p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  
+}
+
+.container-footer {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-social {
+  display: flex;
+  flex-direction: column;
+  padding-top: 30px;
+  width: 125px;
+}
+
+.footer-social-link {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 5px 0;
+}
+.footer-social-link a {
+  width: 30px;
+  height: 30px;
+}
+
+.footer-social-link h3 {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.footer-copyright {
+  padding: 30px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.italic {
+  font-style: italic;
+}
+
+footer {
+  height: 262px;
+  background-color: var(--darker-color);
+  color: var(--background-color);
+}
